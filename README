@@ -8,5 +8,15 @@ A simple responsive login form built with **HTML & CSS**.
 - Clean styling with hover effects
 - Beginner-friendly project
 
-## Demo
-Screenshot or live demo link coming soon!
+## Live Demo
+https://davidokoni09.github.io/responsive-login-page/
+
+## 🛠️ Built With
+- HTML5
+- CSS3
+
+## 📚 Lessons Learned
+While building this project, I practiced:
+- Using semantic HTML form elements
+- Basic CSS layout (Grid & Flexbox)
+- Styling buttons and input fields
