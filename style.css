@@ -1,24 +1,53 @@
 body {
-    display: flex;
     background-color: teal;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.login-container{
+header, footer {
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+
+header {
+    background-color: #006666;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #004d4d;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+
+.login-container {
     background-color: white;
-    padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     width: 100%;
     max-width: 400px;
+    padding: 2rem;
 }
 
 h1 {
-   margin-bottom: 1rem;
-   text-align: center;
-   color: teal;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    color: teal;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 form {
@@ -33,23 +62,24 @@ label {
 }
 
 button {
-    width: 100px;
     background-color: teal;
     color: white;
     font-weight: bold;
     border: none;
     transition: background 0.3s;
     border-radius: 5px;
-    margin-left: 150px;
+    cursor: pointer;
+    align-self: center;
+    padding: 0.75rem 2rem;
 }
 
 button:hover {
-  background-color: #004d4d;
+    background-color: #004d4d;
 }
 
 input {
     width: 100%;
     border-radius: 5px;
     border: 1px solid #ccc;
+    padding: 0.75rem;
 }
-
